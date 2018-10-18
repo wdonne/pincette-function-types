@@ -1,0 +1,25 @@
+{
+  "name": "@pincette/function-types",
+  "version": "1.0.0",
+  "description": "Java style function types",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/wdonne/pincette-function-types",
+  "keywords": ["Java style", "function types", "TypeScript"],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check"
+  },
+  "author": "Werner Donne",
+  "devDependencies": {
+    "gts": "^0.8.0",
+    "typescript": "^3.1.3"
+  }
+}
