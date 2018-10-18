@@ -1,6 +1,6 @@
 {
   "name": "@pincette/function-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Java style function types",
   "license": "BSD-3-Clause",
   "homepage": "https://github.com/wdonne/pincette-function-types",
